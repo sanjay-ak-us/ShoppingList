@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image:url(../img/wfm_grocery_bird_s_eye_view_2-lg_large.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+	box-sizing:border-box;
+	height:6em;
+	position:fixed;
+	background-color:#B7B7B7;
+	opacity:.70;
+}
+
+.header>h1{
+	text-align:center;
+	margin-top:.5em;
+	letter-spacing:0.2em;
+	font-size:3vmax;
+}
+
+	
+.content-left, .content-center, .content-right{
+	min-height:30em;
+	margin-top:7em;
+}
+
+.content-center{
+	background-color:#BABABA;
+	opacity:.85;
+}
+
+.shopping-list{
+	margin:10% 10%;
+}
+
+.shopping-list input{
+	width:80%;
+	font-size:1.2vmax;
+	line-height:2;	
+}
+
+.shopping-list .list-items{
+	padding:0;
+	margin-top:0.5em;
+}
+
+.shopping-list .list-items>li{
+	padding-left:1em;
+	list-style:none;
+	line-height:2.5;
+	background-color:#FFFFFF;
+	opacity:.90;
+	font-size:1.2vmax;
+}
+
+.shopping-list .list-items>li:nth-child(odd){
+	background-color:#9A9A9A;
+	opacity:.90;
+}
+
+.shopping-list .list-items>li.first{
+	background-color:#2B2B2B;
+	color:#FFFFFF;
+}
+
+.shopping-list .list-items>li>.name{
+	display:inline-block;
+	width:80%;
+}
+
+.shopping-list .list-items>li>.done, .shopping-list .list-items>li>.remove{
+	display:inline-block;
+	padding-top:0.2em;
+	width:10%;
+}
+
+.shopping-list .list-items>li input{
+	width:1em;
+	height:1em;
+	border-color:#015F38;
+}
+
+.shopping-list .list-items>.first>.done, .shopping-list .list-items>.first>.remove{
+	color:#FFFFFF;
+	font-size:100%;
+}
+
+.cancelled{
+	text-decoration:line-through;
+}

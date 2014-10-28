@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>!window.jQuery && document.write('<script src="jquery-2.1.1.min.js"><\/script>')</script>
+<script src="scripts/app.js"></script>
+<title>ShoppingList</title>
+<link href="style/reset.css" type="text/css" rel="stylesheet" />
+<link href="style/12grid.css" type="text/css" rel="stylesheet" />
+<link href="style/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+	<header class="twelve-col header row">
+    	<h1>Shopping List</h1>
+    </header>
+    
+    <section class="main content">
+    	<div class="two-col content-left"></div>
+        <div class="eight-col content-center">
+        	<div class="shopping-list">
+            	<div class="list-input">
+                	<input id="item" placeholder="Type list item and press Enter" title="="Type list item and press Enter""></input>
+                </div>
+                <div class="list">
+                	<ul class="list-items">
+						<li class="first"><span class="name">Item</span><span class="done">Done</span><span class="remove">Remove</span></li>
+                        <!--	
+                    	<li><span class="name">Milk</span><span class="done"><input type="checkbox'></input></span><span class="remove">&#9744;</span></li>
+                        <li><span class="name">Bread</span><span class="done">&#9744;</span><span class="remove">&#9744;</span></li>
+                        <li><span class="name">Cheese</span><span class="done">&#9744;</span><span class="remove">&#9744;</span></li>
+                        <li><span class="name">Eggs</span><span class="done">&#9744;</span><span class="remove">&#9744;</span></li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="two-col content-right"></div>
+    </section>
+</body>
+
+</html>
